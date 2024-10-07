@@ -11,7 +11,7 @@ function Card({food, onAdd, onRemove}) {
     // const Img = food.food.Image;   
     // const price = food.food.price
     // const title = food.food.title    
-    console.log(title)
+    console.log(id)
     const handleIncrement = () => {
         setCount(count + 1)
         onAdd(food)
