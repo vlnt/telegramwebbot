@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import './App.css';
 import './components/Button'
-import Button from './components/Button';
 import Cart from "./components/Cart";  
 import Card from './components/Card'
 
@@ -18,7 +17,6 @@ function App() {
   });
 
   const foods = getData()
-  console.log(foods)
 
   const onAdd = (food) => {
     const exist = cartItems.find((x) => x.id === food.id);
